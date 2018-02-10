@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding 0;
+}
+
+img {
+    width: 160px;
+    height: 40px;
+}
+
+.nav a {
+    text-transform: uppercase;
+    color: dimgray;
+}
+
+header,
+#intro,
+#about {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#intro .picture {
+    background: url(../img/tlo7.jpg)no-repeat;
+    margin: 0;
+    border-radius: 0;
+}
+
+#about {
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+#about .icon-item {
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    color: #fff;
+}
+
+@media(max-width:640px) {
+
+    .icons {
+        flex-direction: column;
+    }
+    .icon-item {
+        margin: 15px 0;
+    }
+}
